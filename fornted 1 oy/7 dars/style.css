@@ -1,0 +1,48 @@
+
+.box:first-child {
+
+    background-color: blue;
+
+}
+
+.box:last-child {
+
+    background-color: red;
+
+}
+
+.box:nth-child(5) {
+    background-color: aqua;
+}
+
+.box:nth-child(2) {
+    background-color: brown;
+}
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    color:white;
+    background-color: green;
+
+
+}
+
+
+
+
+/* .doda-box {
+    display: flex;
+    gap: 100px;
+}
+*/
+.boxes {
+
+
+    display: flex;
+
+    gap: 0px;
+}
+

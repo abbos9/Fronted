@@ -1,0 +1,61 @@
+header {
+  max-width: 1440px;
+}
+
+body {
+  max-width: 1440px;
+}
+
+.navbar-content {
+  height: 150px;
+
+  align-items: center;
+}
+#third .container {
+  border: dashed;
+  border-color: purple;
+}
+.third-mall h6 {
+  max-width: 225px;
+  text-emphasis: center;
+}
+.malls {
+  display: flex;
+  flex-wrap: wrap;
+}
+.third-btn button {
+  width: 1300px;
+}
+.third-carusel {
+  height: 240px;
+}
+.brends {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fourth-contaend {
+  max-width: 1220px;
+}
+footer ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+.row {
+  flex-wrap: nowrap;
+}
+.brends h5 {
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+@media screen and (max-width: 600px) {
+  .navbar-content {
+    flex-wrap: wrap;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .third-btn button {
+    width: 350px;
+  }
+}

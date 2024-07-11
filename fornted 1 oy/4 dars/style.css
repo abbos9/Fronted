@@ -1,0 +1,40 @@
+h1 { 
+    color: red;
+}
+
+p {
+    color: red;
+}
+
+.text1 {
+
+    color: blue;
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+    font-family: sans-serif;
+
+    /* width: 700px; */
+
+    text-align: center;
+
+}
+
+a {
+    font-size: 40px;
+
+    text-decoration: none;
+}
+
+.img1 {
+    text-align: center;
+}
+
+.staruha {
+    text-align: center;
+
+    width: 300px;
+    height: 300px;
+}

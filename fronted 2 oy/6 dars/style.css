@@ -1,0 +1,418 @@
+header {
+  background: #f2ceda;
+}
+
+.links ul li a {
+  text-decoration: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #150101;
+
+  opacity: 0.6;
+}
+
+.links ul li a:hover {
+  color: #d23166;
+}
+
+.nav-content {
+  height: 100px;
+
+  align-items: center;
+}
+
+/* first */
+
+#first {
+  background-color: #f2ceda;
+}
+
+.first-content {
+  padding-bottom: 100px;
+}
+
+.first-content .left {
+  padding-top: 150px;
+}
+
+.first-content .title-small {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+
+  color: #0f0101;
+}
+
+.first-content h1 {
+  max-width: 665px;
+
+  font-family: "Fredoka", sans-serif;
+  font-weight: 900;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  /* or 69px */
+
+  color: #0f0101;
+}
+
+.first-content h1 span {
+  color: #d23166;
+}
+
+.first-content .gray-text {
+  padding: 25px 0 50px;
+
+  max-width: 523px;
+
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+
+  color: #0f0101;
+  opacity: 0.6;
+}
+
+.right .right-img {
+  position: relative;
+}
+
+.creame {
+  position: absolute;
+
+  left: -200px;
+
+  top: 100px;
+}
+#second {
+  height: 300px;
+}
+.card-content {
+  height: 300px;
+  align-items: center;
+  gap: 70px;
+}
+
+/* third */
+
+#third {
+  background-color: #f2ceda;
+}
+
+#third .right .right-img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#third .right .right-img img {
+  width: 500px;
+
+  height: 500px;
+}
+
+.third-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-content .left {
+  max-width: 500px;
+
+  padding-top: 141px;
+}
+
+/* fourth */
+
+.fourth-nav ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.6;
+  text-decoration: none;
+}
+.fourth-nav ul li:hover a {
+  text-decoration: underline;
+}
+
+/* .fourth-content .fourth-nav {
+    text-align: center;
+}
+
+.fourth-nav ul {
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+} */
+
+/* .product-one {
+    display: flex;
+} */
+
+.product-one .right {
+  margin-top: 110px;
+  max-width: 500px;
+}
+
+.product-one .right .right-text h3 {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.product-one .right .right-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+
+  opacity: 0.7;
+}
+
+.span-one {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.span-two {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration-line: line-through;
+
+  color: #000000;
+
+  opacity: 0.7;
+}
+.product-two .right .right-text h3 {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #000000;
+}
+.product-two .right .right-text p {
+  max-width: 500px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: right;
+
+  color: #000000;
+
+  opacity: 0.7;
+}
+/*
+.product-two .right .right-text .right-price .price .span-one {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: right;
+
+  color: #000000;
+}
+.product-two .right .right-text .right-price .price .span-two {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: line-through;
+
+  color: #000000;
+
+  opacity: 0.7;
+}*/
+.product-two .price {
+  text-align: right;
+}
+.product-two .price-btn {
+  text-align: right;
+}
+.first-img {
+  display: flex;
+  gap: 21px;
+  height: 58px;
+  align-items: center;
+}
+.first-img h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.first-img p {
+  margin-left: -98px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.7;
+}
+.text-two p {
+  max-width: 322px;
+}
+.fivth-product .fourth-product {
+  display: flex;
+  justify-content: space-between;
+  gap: 240px;
+}
+#five {
+  background-color: #f8edf0;
+}
+.five-contend h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.five-contend p {
+  max-width: 607px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+
+  color: #0f0101;
+
+  opacity: 0.7;
+}
+.photo-one {
+  display: flex;
+  margin-top: 19px;
+}
+.photo-two {
+  display: flex;
+  margin-top: 19px;
+}
+.photo-three {
+  display: flex;
+  margin-top: 19px;
+}
+.gallery img {
+  display: flex;
+  flex-direction: column;
+}
+.gallery img {
+  width: 25px;
+}
+.gallery h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.five-contend {
+  display: flex;
+  justify-content: space-around;
+}
+.download {
+  display: flex;
+  gap: 20px;
+}
+.six-contend h2 {
+  display: flex;
+  justify-content: center;
+}
+.inp {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.inp input {
+  height: 74px;
+  width: 303px;
+  background: #ffffff;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+}
+.six-btn {
+  width: 134px;
+  height: 74px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+
+  background: #d64374;
+  border-radius: 5px;
+}
+.inp-three {
+  width: 500px;
+  height: 74px;
+}
+.input {
+  margin-top: 37px;
+
+  display: flex;
+  justify-content: center;
+}

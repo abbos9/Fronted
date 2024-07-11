@@ -1,0 +1,231 @@
+footer ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+.row {
+  flex-wrap: nowrap;
+}
+
+.first-text h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* черный */
+
+  color: #333232;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#one .first-titly h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* цвет кнопок главный */
+
+  color: #2cb708;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.first-text h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  /* черный */
+
+  color: #333232;
+}
+.first-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  /* серый */
+
+  color: #b9b9b9;
+}
+.first-text h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* черный */
+
+  color: #333232;
+}
+.phone-text h6 {
+  max-width: 369px;
+}
+.first-text {
+  display: flex;
+  gap: 60px;
+}
+.second-text {
+  display: flex;
+  gap: 54px;
+}
+.shower-text h6 {
+  max-width: 369px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  /* серый */
+
+  color: #b9b9b9;
+}
+.shower-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  /* серый */
+
+  color: #b9b9b9;
+}
+
+.shower-product h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* серый */
+
+  color: #b9b9b9;
+}
+.second-titly button {
+  margin-left: 134px;
+  background-color: #fff1f1;
+}
+.second-titly button p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* черный */
+
+  color: #333232;
+}
+.second-titly button p span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* цвет кнопок главный */
+
+  color: #2cb708;
+}
+.own-text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  height: 25px;
+}
+.adres-inp input {
+  width: 1269px;
+  border-radius: 90px;
+}
+.input-office input {
+  width: 300px;
+  border-radius: 90px;
+}
+.input-form input {
+  display: flex;
+  border-radius: 90px;
+}
+.input input {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.input-one {
+  display: flex;
+}
+.input-two {
+  display: flex;
+}
+.btn-another {
+  width: 1270px;
+  background-color: #efefef;
+}
+@media screen and (max-width: 600px) {
+  .navbar-content {
+    flex-wrap: wrap;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .btn-another {
+    width: 350px;
+  }
+  .text-area textarea {
+    width: 350px;
+  }
+  .adres-inp input {
+    width: 300px;
+  }
+  .first-product {
+    flex-wrap: wrap;
+  }
+  .second-product {
+    flex-wrap: wrap;
+  }
+}

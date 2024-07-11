@@ -1,0 +1,13 @@
+.navbar-content {
+  height: 150px;
+
+  align-items: center;
+}
+
+#third .container {
+  border: dashed 3px;
+}
+
+.third-carousel {
+  margin-bottom: 100px;
+}

@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+}
+.header-contend {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left button h5 {
+  background-color: white;
+  color: black;
+}
+.header-right {
+  color: white;
+}
+/* main */
+
+/* first  */
+.first-contend .title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+.numbers .number button {
+  color: black;
+  max-width: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 30px;
+  position: absolute;
+  left: 47%;
+  top: -23px;
+  width: 80px;
+}
+.number {
+  position: relative;
+  max-height: 50px;
+}
+.numbers hr {
+  background-color: white;
+  height: 5px;
+  border: none;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+}
+/* second */
+
+.check input {
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+.checking-btn button {
+  background-color: white;
+  height: 32px;
+  margin-top: 20px;
+}
+.checking-btn button h5 {
+  align-items: center;
+  height: 32px;
+}
+.counter p {
+  color: white;
+}
+.check {
+  height: 130px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.second-contend {
+  height: 500px;
+  align-items: center;
+}

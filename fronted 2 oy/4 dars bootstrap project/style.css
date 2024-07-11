@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+
+  list-style: none;
+
+  justify-content: space-between;
+
+  height: 90px;
+
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+
+  font-family: sans-serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #828282;
+}
+
+ul li:first-child a {
+  color: black;
+}
+
+/* first */
+
+.first-content .first-title {
+  display: flex;
+
+  justify-content: space-between;
+
+  height: 188px;
+
+  align-items: center;
+}
+
+.first-content .first-title .name {
+  font-family: sans-serif;
+
+  font-weight: 700;
+
+  font-size: 47.3392px;
+  line-height: 59px;
+
+  /* Black */
+
+  color: #070707;
+
+  max-width: 123.51px;
+}
+
+.first-content .first-title .designer {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+
+  /* Black */
+
+  color: #070707;
+
+  max-width: 155.65px;
+}
+
+.first-content .first-title .language {
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+
+  transform: rotate(-90deg);
+
+  height: 1px;
+}
+
+.first-img {
+  max-width: 100%;
+}
+
+.first-img img {
+  width: 100%;
+}
+
+/* second */
+
+.second-content .second-text {
+  max-width: 400.34px;
+
+  margin: 120px auto 107px;
+}
+
+.second-content .second-text h2 {
+  font-family: sans-serif;
+
+  font-weight: 700;
+
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+
+.second-content .second-text p {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+
+.text1 {
+  padding: 35px 0 50px;
+}
+
+.text2 {
+  padding-bottom: 50px;
+}
+
+.third-content .third-title h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+
+  margin-bottom: 70px;
+}
+
+.third-content .third-title {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+
+.third-content .third-skills {
+  margin-top: 83px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-content .third-skills .skill {
+  max-width: 166.46px;
+}
+
+.third-content .third-skills .skill .skill-img {
+  max-width: 82px;
+  margin: 0 auto 30px;
+}
+
+.third-content .third-skills .skill .skill-img img {
+  width: 100%;
+}
+
+.skill-text {
+  font-family: sans-serif;
+  font-weight: 700;
+
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #828282;
+
+  max-width: 70px;
+  margin: 0 auto 40px;
+}
+#fourth {
+  background: #f6f6f6;
+}
+.fourth-text {
+  margin: 112px auto;
+  margin-bottom: 47px;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+.fourth-img {
+  max-width: 100%;
+}
+.fourth-img img {
+  margin: 0 auto;
+  width: 100%;
+}
+.fourth-second-text {
+  margin-bottom: 99px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* Black */
+
+  color: #070707;
+  margin-top: 45px;
+  text-decoration: underline;
+}
+.footer-text h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+  margin-bottom: 20px;
+}
+.footer-text {
+  margin: 0 auto;
+  font-family: sans-serif;
+  max-width: 275.14px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 180.5px;
+  height: 42px;
+
+  font-family: sans-serif;
+
+  border-radius: 90px;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* identical to box height */
+  color: #ffffff;
+
+  background: #070707;
+  text-align: center;
+}
+.gallery {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 61.35px;
+}
+.last-text {
+  margin: 46px auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #828282;
+  max-width: 243.01px;
+  max-height: 34.05px;
+}
+@media screen and (max-width: 600px) {
+  .third-skills {
+    flex-wrap: wrap;
+  }
+}
